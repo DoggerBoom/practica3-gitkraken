@@ -17,7 +17,11 @@ public class NumerosPrimos {
      }
 
 
-
+    for(int i=1; i<=100; i++){
+         if (nPrimo(i)){
+             System.out.println(i);
+         }
+     }
 
 
      public static boolean nPrimo(int numero){
@@ -33,7 +37,7 @@ public class NumerosPrimos {
 
 
 
-    
+
         }
     }
 }
